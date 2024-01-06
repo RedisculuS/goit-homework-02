@@ -1,5 +1,5 @@
 body {
-  font-family: 'Roboto' sans-serif, 'Montserrat', sans-serif;
+  font-family: 'Roboto' sans-serif;
   color: #434455;
   background-color: #ffffff;
   font-size: 16px;
@@ -40,6 +40,7 @@ ul {
 
 .nav-list-el {
   letter-spacing: 0.02em;
+  color: #2e2f42;
 }
 
 .logo {
@@ -108,14 +109,18 @@ ul {
   background-color: #404bbf;
 }
 
-.section-second-title-p {
+.section-second-headder {
+  color: #2e2f42;
+}
+
+.section-title-p {
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
 }
 
-.section-second-descr {
+.section-descr {
   letter-spacing: 0.02em;
   font-size: 16px;
 }
@@ -131,6 +136,7 @@ ul {
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
+  color: #2e2f42;
 }
 
 .section-team-list-el {
@@ -148,6 +154,10 @@ ul {
 }
 
 .footer-descr {
-  color: #2e2f42;
+  color: currentColor;
   letter-spacing: 0.02em;
+}
+
+.webstudio-footer {
+  color: #f4f4fd;
 }
