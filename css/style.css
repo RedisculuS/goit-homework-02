@@ -1,25 +1,14 @@
 body {
-  font-family: 'Roboto', 'Montserrat', sans-serif;
-  color: #2e2f42;
+  font-family: 'Roboto' sans-serif, 'Montserrat', sans-serif;
+  color: #434455;
   background-color: #ffffff;
   font-size: 16px;
   font-weight: 400;
   line-height: 1.5;
 }
 
-h1 {
-  font-size: 56px;
-  font-weight: 700;
-}
-
-h2 {
-  font-size: 36px;
-  font-weight: 700;
-}
-
-h3 {
-  font-size: 20px;
-  font-weight: 500;
+p {
+  color: #434455;
 }
 
 a {
@@ -49,14 +38,30 @@ ul {
   text-decoration: underline;
 }
 
+.nav-list-el {
+  letter-spacing: 0.02em;
+}
+
 .logo {
   font-family: 'Raleway', sans-serif;
   font-size: 18px;
-  color: #2e2f42;
+  color: #4d5ae5;
+  font-weight: 700;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.address {
+  font-style: normal;
+}
+
+.address-list-el {
+  letter-spacing: 0.02em;
 }
 
 .webstudio {
-  color: #4d5ae5;
+  color: #2e2f42;
 }
 
 .contacts li a {
@@ -76,27 +81,59 @@ ul {
   color: #ffffff;
 }
 
+.section-first-headder {
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
+  font-weight: 700;
+}
+
 .button-order {
   background-color: #4d5ae5;
   color: #ffffff;
   border-style: none;
   font-weight: 500;
   cursor: pointer;
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
 }
 
 .button-order:hover {
   background-color: #404bbf;
 }
 
-p {
-  color: #434455;
+.button-order:focus {
+  background-color: #404bbf;
+}
+
+.section-second-title-p {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+
+.section-second-descr {
+  letter-spacing: 0.02em;
+  font-size: 16px;
 }
 
 .section-team {
   background-color: #f4f4fd;
 }
 
-.section-team li {
+.section-team-headder {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+}
+
+.section-team-list-el {
   background-color: #ffffff;
 }
 
@@ -108,4 +145,9 @@ p {
 .footer {
   background-color: #2e2f42;
   color: #f4f4fd;
+}
+
+.footer-descr {
+  color: #2e2f42;
+  letter-spacing: 0.02em;
 }
