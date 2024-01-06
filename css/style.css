@@ -1,5 +1,5 @@
 body {
-  font-family: 'Roboto' sans-serif;
+  font-family: 'Roboto', sans-serif;
   color: #434455;
   background-color: #ffffff;
   font-size: 16px;
@@ -109,7 +109,7 @@ ul {
   background-color: #404bbf;
 }
 
-.section-second-headder {
+.section-headder {
   color: #2e2f42;
 }
 
