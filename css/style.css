@@ -3,12 +3,6 @@ body {
   color: #434455;
   background-color: #ffffff;
   font-size: 16px;
-  font-weight: 400;
-  line-height: 1.5;
-}
-
-p {
-  color: #434455;
 }
 
 a {
@@ -41,6 +35,8 @@ ul {
 .nav-list-el {
   letter-spacing: 0.02em;
   color: #2e2f42;
+  font-weight: 500;
+  line-height: 1.5;
 }
 
 .logo {
@@ -124,6 +120,7 @@ ul {
 .section-descr {
   letter-spacing: 0.02em;
   font-size: 16px;
+  line-height: 1.5;
 }
 
 .section-team {
@@ -155,7 +152,6 @@ ul {
 }
 
 .footer-descr {
-  color: currentColor;
   letter-spacing: 0.02em;
 }
 
