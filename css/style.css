@@ -55,6 +55,7 @@ ul {
 
 .address-list-el {
   letter-spacing: 0.02em;
+  line-height: 1.5;
 }
 
 .webstudio {
@@ -153,6 +154,7 @@ ul {
 
 .footer-descr {
   letter-spacing: 0.02em;
+  line-height: 1.5;
 }
 
 .webstudio-footer {
